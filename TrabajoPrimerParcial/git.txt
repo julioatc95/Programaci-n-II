@@ -1,0 +1,101 @@
+
+alumno@2D8 MINGW64 ~
+$ git clone https://github.com/BrianSanti/UltimoNuevo.git
+Cloning into 'UltimoNuevo'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+
+alumno@2D8 MINGW64 ~
+$ cd UltimoNuevo
+
+alumno@2D8 MINGW64 ~/UltimoNuevo (master)
+$ git add .
+warning: LF will be replaced by CRLF in build/classes/NMMI.form.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/NMMI.form.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/NMMI.java.
+The file will have its original line endings in your working directory.
+
+alumno@2D8 MINGW64 ~/UltimoNuevo (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   build.xml
+        new file:   build/built-jar.properties
+        new file:   build/classes/.netbeans_automatic_build
+        new file:   build/classes/.netbeans_update_resources
+        new file:   build/classes/NMMI.form
+        new file:   manifest.mf
+        new file:   nbproject/build-impl.xml
+        new file:   nbproject/genfiles.properties
+        new file:   nbproject/private/private.properties
+        new file:   nbproject/private/private.xml
+        new file:   nbproject/project.properties
+        new file:   nbproject/project.xml
+        new file:   src/NMMI.form
+        new file:   src/NMMI.java
+        new file:   src/Persona.java
+
+
+alumno@2D8 MINGW64 ~/UltimoNuevo (master)
+$ git commit -m "ACTUALIZACION"
+[master 92503f0] ACTUALIZACION
+ Committer: U. Mariano Gálvez <alumno@labs.academico>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 15 files changed, 2993 insertions(+)
+ create mode 100644 build.xml
+ create mode 100644 build/built-jar.properties
+ create mode 100644 build/classes/.netbeans_automatic_build
+ create mode 100644 build/classes/.netbeans_update_resources
+ create mode 100644 build/classes/NMMI.form
+ create mode 100644 manifest.mf
+ create mode 100644 nbproject/build-impl.xml
+ create mode 100644 nbproject/genfiles.properties
+ create mode 100644 nbproject/private/private.properties
+ create mode 100644 nbproject/private/private.xml
+ create mode 100644 nbproject/project.properties
+ create mode 100644 nbproject/project.xml
+ create mode 100644 src/NMMI.form
+ create mode 100644 src/NMMI.java
+ create mode 100644 src/Persona.java
+
+alumno@2D8 MINGW64 ~/UltimoNuevo (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+alumno@2D8 MINGW64 ~/UltimoNuevo (master)
+$ git push
+fatal: HttpRequestException encountered.
+   Error al enviar la solicitud.
+Username for 'https://github.com': BrianSanti
+Counting objects: 20, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (20/20), 18.94 KiB | 0 bytes/s, done.
+Total 20 (delta 0), reused 0 (delta 0)
+To https://github.com/BrianSanti/UltimoNuevo.git
+   dee1f22..92503f0  master -> master
+
+alumno@2D8 MINGW64 ~/UltimoNuevo (master)
+$
